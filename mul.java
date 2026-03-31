@@ -1,0 +1,10 @@
+public class mul extends Thread
+{
+	public void run()
+	{
+		for(int i=0;i<11;i++)
+		{
+			System.out.println("\n5 * "+i+" = "+5*i);
+		}
+	}
+}
